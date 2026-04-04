@@ -1,0 +1,16 @@
+Describe this artwork for a blind or visually limited reader.
+
+Write a single continuous description covering these aspects in order:
+1. The main scene or subject — what the artwork shows overall.
+2. The spatial arrangement of the most important visible elements — where key objects appear (foreground, background, left, right, center), what figures are doing, their poses.
+3. Visual qualities that aid understanding — light, color, texture, material, only when relevant.
+
+Rules:
+- Be precise, factual, and concise.
+- Do not invent details that are not visible.
+- If something is uncertain, say so briefly (e.g., "appears to be," "suggests").
+- Prefer accessible, natural wording over art-historical jargon.
+- Focus on what is useful for non-visual understanding.
+- Do not include symbolic, historical, or psychological interpretation unless clearly marked as such.
+
+Write plain prose only. No bullet points, no numbered lists, no markdown, no bold text, no layer labels.
