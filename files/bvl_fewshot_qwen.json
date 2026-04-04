@@ -1,0 +1,196 @@
+[
+  {
+    "painting_id": "gisze_holbein",
+    "title": "Merchant Georg Gisze",
+    "artist": "Hans Holbein",
+    "description_style": "BVL-structured — layered, spatially explicit, visible facts only",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "A man, Georg Gisze, stands shown half-length in a wood-paneled interior, his counting house.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known"
+      },
+      {
+        "sentence_id": 2,
+        "text": "A precious Anatolian carpet covers a table in the foreground, on which there are a glass vase with carnations and rosemary, a table clock, a pewter casket for writing implements and various other things.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation"
+      },
+      {
+        "sentence_id": 3,
+        "text": "Numerous letters are pinned to the walls; on the shelves hang, to the left, a balance and a seal, and to the right, a splendidly decorated ball of string; books, gold rings, and keys can also be seen.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image"
+      },
+      {
+        "sentence_id": 4,
+        "text": "Gisze wears shimmering red silk sleeves, a massive black robe, and a black beret.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look"
+      },
+      {
+        "sentence_id": 6,
+        "text": "Gisze’s motto is written on the wall to the left: “Nulla sine merore voluptas” (“No joy without sorrow”).",
+        "class": "VisibleText",
+        "class_info": "verbatim transcription of any legible text, inscription, motto, or label visible in the image"
+      },
+      {
+        "sentence_id": 8,
+        "text": "A cartellino at the upper edge of the picture, conceived not as attached to the painted back wall but rather as adhering to the picture surface, contains a Latin distich which in translation reads: “Distich on Georg Gisze. This image, which you see, reproduces Georg’s features; so lively is his eye, so are his cheeks formed / Of his age 34 years / In the year of the Lord 1532.”",
+        "class": "VisibleText",
+        "class_info": "verbatim transcription of any legible text, inscription, motto, or label visible in the image"
+      },
+      {
+        "sentence_id": 9,
+        "text": "Gisze opens a letter.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image"
+      },
+      {
+        "sentence_id": 10,
+        "text": "It is addressed to his “broder.”",
+        "class": "VisibleText",
+        "class_info": "verbatim transcription of any legible text, inscription, motto, or label visible in the image"
+      },
+      {
+        "sentence_id": 11,
+        "text": "The room, like the table, appears not to possess a right angle.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look"
+      }
+    ]
+  },
+  {
+    "painting_id": "malle_babbe_hals",
+    "title": "Malle Babbe",
+    "artist": "Frans Hals",
+    "description_style": "BVL-structured — layered, spatially explicit, visible facts only",
+    "output": [
+      {
+        "sentence_id": 2,
+        "text": "The painting shows the life-size figure of Malle Babbe seated at a table.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known"
+      },
+      {
+        "sentence_id": 3,
+        "text": "With her right hand she grasps the handle of a pewter jug with an upright lid.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image"
+      },
+      {
+        "sentence_id": 4,
+        "text": "An owl sits upon her left shoulder.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation"
+      },
+      {
+        "sentence_id": 6,
+        "text": "While her upper body is oriented to the left and into depth, she seems to have just now laughingly turned her head to the left.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation"
+      },
+      {
+        "sentence_id": 7,
+        "text": "Only the pewter jug set on the table places, as the sole vertical in the composition determined by crossing diagonals, a stabilizing accent in the picture.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look"
+      },
+      {
+        "sentence_id": 8,
+        "text": "The open brushwork closes into denser modeling only in the face, while otherwise leaving the forms summarized in abruptly set strokes.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look"
+      }
+    ]
+  },
+  {
+    "painting_id": "self_portrait_rembrandt",
+    "title": "Self-Portrait with Velvet Beret and a Cloak with Fur Collar",
+    "artist": "Rembrandt Harmensz van Rijn",
+    "description_style": "BVL-structured — layered, spatially explicit, visible facts only",
+    "output": [
+      {
+        "sentence_id": 6,
+        "text": "The portrait shows a life-size bust-length image of Rembrandt in a dark cloak, fur collar, and scarf loosely draped around the neck.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known"
+      },
+      {
+        "sentence_id": 7,
+        "text": "His head is covered by a black velvet beret.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image"
+      },
+      {
+        "sentence_id": 8,
+        "text": "His upper body is turned in three-quarter profile to the right, while the face, with shadowed, narrowly cut eyes and slightly opened mouth, is turned directly toward the viewer.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation"
+      },
+      {
+        "sentence_id": 9,
+        "text": "The asymmetry of the figure’s outline intensifies the sweeping movement toward the viewer and lends the representation its characteristic dynamism.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look"
+      },
+      {
+        "sentence_id": 10,
+        "text": "The face, vertically divided by a contrasting alternation of light and shadow, reveals a desire to idealize the naturally given breadth and irregularity of the features.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look"
+      }
+    ]
+  },
+  {
+    "painting_id": "self_portrait_therbusch",
+    "title": "Self-Portrait",
+    "artist": "Anna Dorothea Therbusch",
+    "description_style": "BVL-structured — layered, spatially explicit, visible facts only",
+    "output": [
+      {
+        "sentence_id": 7,
+        "text": "In the picture the artist sits on a chair with green upholstery.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known"
+      },
+      {
+        "sentence_id": 8,
+        "text": "The body is turned to the right.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation"
+      },
+      {
+        "sentence_id": 9,
+        "text": "She wears a veil and a white, voluminous skirt.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look"
+      },
+      {
+        "sentence_id": 10,
+        "text": "In her blouse the carnation pink can be seen.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look"
+      },
+      {
+        "sentence_id": 11,
+        "text": "In her hand she holds an open book.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image"
+      },
+      {
+        "sentence_id": 12,
+        "text": "The artist looks directly at the viewers.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation"
+      },
+      {
+        "sentence_id": 13,
+        "text": "She wears an eyeglass on her head and slightly lifts the corners of her mouth.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image"
+      }
+    ]
+  }
+]

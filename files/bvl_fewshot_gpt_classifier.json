@@ -1,0 +1,1452 @@
+[
+  {
+    "painting_id": "gisze_holbein",
+    "title": "Merchant Georg Gisze",
+    "artist": "Hans Holbein",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "A man, Georg Gisze, stands shown half-length in a wood-paneled interior, his counting house. A precious Anatolian carpet covers a table in the foreground, on which there are a glass vase with carnations and rosemary, a table clock, a pewter casket for writing implements and various other things. Numerous letters are pinned to the walls; on the shelves hang, to the left, a balance and a seal, and to the right, a splendidly decorated ball of string; books, gold rings, and keys can also be seen. Gisze wears shimmering red silk sleeves, a massive black robe, and a black beret. Without doubt, Gisze himself desired this abundance in order to convey a certain image of himself: the letters point to his activity as a merchant lord, while the precious objects testify to wealth and taste. Gisze’s motto is written on the wall to the left: “Nulla sine merore voluptas” (“No joy without sorrow”). An extravagance such as the red silk of Gisze’s garment may point just as much to the noble rank of the Danzig native as the sword, the pommel of which becomes visible at his left hip. A cartellino at the upper edge of the picture, conceived not as attached to the painted back wall but rather as adhering to the picture surface, contains a Latin distich which in translation reads: “Distich on Georg Gisze. This image, which you see, reproduces Georg’s features; so lively is his eye, so are his cheeks formed / Of his age 34 years / In the year of the Lord 1532.” Gisze opens a letter. It is addressed to his “broder.” The room, like the table, appears not to possess a right angle. Precisely for this reason, however, Gisze appears especially dominant. The persistent fascination exerted by the portrait is due as much to this deviation from what is really possible as to the gaze directed at the viewer with a slight turning of the head—a gaze that seems to scrutinize us in a distant, expectant manner.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "A man, Georg Gisze, stands shown half-length in a wood-paneled interior, his counting house.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 2,
+        "text": "A precious Anatolian carpet covers a table in the foreground, on which there are a glass vase with carnations and rosemary, a table clock, a pewter casket for writing implements and various other things.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 3,
+        "text": "Numerous letters are pinned to the walls; on the shelves hang, to the left, a balance and a seal, and to the right, a splendidly decorated ball of string; books, gold rings, and keys can also be seen.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 4,
+        "text": "Gisze wears shimmering red silk sleeves, a massive black robe, and a black beret.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 5,
+        "text": "Without doubt, Gisze himself desired this abundance in order to convey a certain image of himself: the letters point to his activity as a merchant lord, while the precious objects testify to wealth and taste.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 6,
+        "text": "Gisze’s motto is written on the wall to the left: “Nulla sine merore voluptas” (“No joy without sorrow”).",
+        "class": "VisibleText",
+        "class_info": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "An extravagance such as the red silk of Gisze’s garment may point just as much to the noble rank of the Danzig native as the sword, the pommel of which becomes visible at his left hip.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 8,
+        "text": "A cartellino at the upper edge of the picture, conceived not as attached to the painted back wall but rather as adhering to the picture surface, contains a Latin distich which in translation reads: “Distich on Georg Gisze. This image, which you see, reproduces Georg’s features; so lively is his eye, so are his cheeks formed / Of his age 34 years / In the year of the Lord 1532.”",
+        "class": "VisibleText",
+        "class_info": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 9,
+        "text": "Gisze opens a letter.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 10,
+        "text": "It is addressed to his “broder.”",
+        "class": "VisibleText",
+        "class_info": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 11,
+        "text": "The room, like the table, appears not to possess a right angle.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 12,
+        "text": "Precisely for this reason, however, Gisze appears especially dominant.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 13,
+        "text": "The persistent fascination exerted by the portrait is due as much to this deviation from what is really possible as to the gaze directed at the viewer with a slight turning of the head—a gaze that seems to scrutinize us in a distant, expectant manner.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "fountain_of_youth_cranach",
+    "title": "The Fountain of Youth",
+    "artist": "Lucas Cranach",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "Cranach’s Fountain of Youth lies far from the city, whose towers rise in the background: a rectangular basin, to which steps lead down, situated between mountains and meadows. Women bathe in it. They come along barren stony paths out of an infertile mountain landscape, whose desolation symbolically points to the privations of old age. Helplessly they are brought in on carts or wagons; on stretchers or on people’s backs they are dragged there. At the edge of the basin, young women help them to undress. A doctor casts one last hopeless glance at his patient before she steps into the bath. The characters then prove to be quite varied. Some women boldly step into the bath and resolutely cross it; others sit hesitantly at the edge and need persuasion, or even allow themselves to be pulled in. As frail, ancient hags they step into the basin. There the magical effect of the water unfolds. As the women cross the basin, the wrinkles smooth out, the gray skin tightens and becomes rosy, and at the right-hand edge of the basin they leave the bath as youthful, lovable women. A cavalier receives them and escorts them into a tent, where they are dressed. In new garments and adorned, they join the dance. Cavaliers entertain the women. A table invites them to dine. The company spends a cheerful day with dancing, feasting, and love. On the side of old age one sees rugged, stony mountain land; here, green meadows and fruit-bearing plants in a cheerful pleasure garden. The force that helps the women to new youth comes from the water. What kind of force it is is indicated by the figures on the fountain structure: Cupid, the god of love, and Lady Venus, the goddess of love and beauty, rule over the fountain. Only women bathe in the basin. According to the writer Rabelais, men were rejuvenated through the company of young women and therefore require no transformation. Cranach’s Fountain of Youth is thus a fountain of love.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "Cranach’s Fountain of Youth lies far from the city, whose towers rise in the background: a rectangular basin, to which steps lead down, situated between mountains and meadows.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 2,
+        "text": "Women bathe in it.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 3,
+        "text": "They come along barren stony paths out of an infertile mountain landscape.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 4,
+        "text": "The desolation of the landscape symbolically points to the privations of old age.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 5,
+        "text": "Helplessly they are brought in on carts or wagons; on stretchers or on people’s backs they are dragged there.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 6,
+        "text": "At the edge of the basin, young women help them to undress.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "A doctor casts one last hopeless glance at his patient before she steps into the bath.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 8,
+        "text": "The characters then prove to be quite varied.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 9,
+        "text": "Some women boldly step into the bath and resolutely cross it; others sit hesitantly at the edge and need persuasion, or even allow themselves to be pulled in.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 10,
+        "text": "As frail, ancient hags they step into the basin.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 11,
+        "text": "There the magical effect of the water unfolds.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 12,
+        "text": "As the women cross the basin, the wrinkles smooth out, the gray skin tightens and becomes rosy, and at the right-hand edge of the basin they leave the bath as youthful, lovable women.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 13,
+        "text": "A cavalier receives them and escorts them into a tent, where they are dressed.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 14,
+        "text": "In new garments and adorned, they join the dance.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 15,
+        "text": "Cavaliers entertain the women.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 16,
+        "text": "A table invites them to dine.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 17,
+        "text": "The company spends a cheerful day with dancing, feasting, and love.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 18,
+        "text": "On the side of old age one sees rugged, stony mountain land; here, green meadows and fruit-bearing plants in a cheerful pleasure garden.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 19,
+        "text": "The force that helps the women to new youth comes from the water.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 20,
+        "text": "What kind of force it is is indicated by the figures on the fountain structure: Cupid, the god of love, and Lady Venus, the goddess of love and beauty, rule over the fountain.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 21,
+        "text": "Only women bathe in the basin.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 22,
+        "text": "According to the writer Rabelais, men were rejuvenated through the company of young women and therefore require no transformation.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 23,
+        "text": "Cranach’s Fountain of Youth is thus a fountain of love.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "madonna_in_church_van_eyck",
+    "title": "The Madonna in the Church",
+    "artist": "Jan van Eyck",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "The Madonna in the Church is one of the most beautiful and precious works that Jan van Eyck created. A Madonna with the Child in her arm is depicted in a church. The detailed rendering of the architecture and the differentiated gradations of the light lend the church interior an atmosphere of very immediate effect. The impression arises as though one were looking into a timeless world. The light of bright day entering through the clerestory windows and the side portal, casting sun reflections upon the screen walls and the floor of the nave, recalls the passing of time, which nevertheless seems to stand still. In this setting Jan van Eyck has rendered the Mother of God with the Child in supernatural size. She rises above the high arches of the church’s side aisle and is thereby removed from the sphere of human powers of imagination. Since early Christian times Mary had been designated the temple and house of God, since Christ had taken up dwelling in her body as in a temple. Before the high altar in the choir of the church, angels can be discerned singing from an antiphonary. They point to the close relation between sacrament and redemption as well as to the everlasting mass of the end times. If one recalls that all Gothic churches always pointed east with the choir, then it becomes apparent that in our painting the sunlight falls into the church not from the south but, contrary to reality, from the north. It is therefore not natural but eternal light, which follows neither the course of the sun nor that of the stars. This symbolism of light finds its many-layered continuation in the burning candles set up beside the Marian sculpture in the niche of the rood screen. It is striking that the statue corresponds entirely to the Madonna standing before us in lifelike fashion. It appears as though the statue had miraculously been brought to life.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "The Madonna in the Church is one of the most beautiful and precious works that Jan van Eyck created.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 2,
+        "text": "A Madonna with the Child in her arm is depicted in a church.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 3,
+        "text": "The detailed rendering of the architecture and the differentiated gradations of the light lend the church interior an atmosphere of very immediate effect.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 4,
+        "text": "The impression arises as though one were looking into a timeless world.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 5,
+        "text": "The light of bright day entering through the clerestory windows and the side portal, casting sun reflections upon the screen walls and the floor of the nave, recalls the passing of time, which nevertheless seems to stand still.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 6,
+        "text": "In this setting Jan van Eyck has rendered the Mother of God with the Child in supernatural size.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "She rises above the high arches of the church’s side aisle and is thereby removed from the sphere of human powers of imagination.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 8,
+        "text": "Since early Christian times Mary had been designated the temple and house of God, since Christ had taken up dwelling in her body as in a temple.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 9,
+        "text": "Before the high altar in the choir of the church, angels can be discerned singing from an antiphonary.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 10,
+        "text": "They point to the close relation between sacrament and redemption as well as to the everlasting mass of the end times.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 11,
+        "text": "The sunlight falls into the church not from the south but, contrary to reality, from the north.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 12,
+        "text": "It is therefore not natural but eternal light, which follows neither the course of the sun nor that of the stars.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 13,
+        "text": "Burning candles are set up beside the Marian sculpture in the niche of the rood screen.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 14,
+        "text": "It is striking that the statue corresponds entirely to the Madonna standing before us in lifelike fashion.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 15,
+        "text": "It appears as though the statue had miraculously been brought to life.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "netherlandish_proverbs_bruegel",
+    "title": "The Netherlandish Proverbs",
+    "artist": "Pieter Bruegel",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "A village on a river near the sea forms the spacious stage for the seemingly everyday bustle of its inhabitants. A farmhouse, dilapidated huts, a stone bridge with pillory and tower, the village square at the center of events, and a homestead between cornfields near the forest form the backdrop for the colorful activity. In the distance the open sea stretches out, outshone by the radiant sun of a late summer day. In this picture, for the first time, more than 100 proverbs and idiomatic expressions are united with one another and set into an environment that is as real as the forms of human behavior revealed by these sayings in concise and apt fashion. The individual scenes unfold simultaneously alongside one another, without being directly dependent on each other, just as chance might bring it about in human life. Through the subtle use of color, the different scenes are linked together. The depiction of absurdity, senselessness, and folly in human behavior occupies broad space in Bruegel’s presentation under the guiding motif of the world turned upside down. Here the well is filled in after the calf has drowned, or daylight is carried out in baskets. Other proverbs contain allusions to the deadly sins. Fraud, lying, and hypocrisy belong to further negative qualities of human beings that are emphatically demonstrated by the proverbs. It is a world in which one serves not God but the devil. Against this background it becomes clear that Bruegel’s picture in truth contains a sharp critique and is pessimistic in tone. Nevertheless, it is more than a mere exposition of the spectacle of human activity as something felt to be unalterable. Rather, Bruegel wanted to place the people of his time in a position to recognize the senselessness of their actions and to comprehend it in its full scope.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "A village on a river near the sea forms the spacious stage for the seemingly everyday bustle of its inhabitants.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 2,
+        "text": "A farmhouse, dilapidated huts, a stone bridge with pillory and tower, the village square at the center of events, and a homestead between cornfields near the forest form the backdrop for the colorful activity.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 3,
+        "text": "In the distance the open sea stretches out, outshone by the radiant sun of a late summer day.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 4,
+        "text": "In this picture, for the first time, more than 100 proverbs and idiomatic expressions are united with one another and set into an environment that is as real as the forms of human behavior revealed by these sayings.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 5,
+        "text": "The individual scenes unfold simultaneously alongside one another, without being directly dependent on each other, just as chance might bring it about in human life.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 6,
+        "text": "Through the subtle use of color, the different scenes are linked together.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "The depiction of absurdity, senselessness, and folly in human behavior occupies broad space in Bruegel’s presentation under the guiding motif of the world turned upside down.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 8,
+        "text": "Here the well is filled in after the calf has drowned, or daylight is carried out in baskets.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 9,
+        "text": "Other proverbs contain allusions to the deadly sins.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 10,
+        "text": "Fraud, lying, and hypocrisy belong to further negative qualities of human beings that are emphatically demonstrated by the proverbs.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 11,
+        "text": "It is a world in which one serves not God but the devil.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 12,
+        "text": "Bruegel’s picture in truth contains a sharp critique and is pessimistic in tone.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 13,
+        "text": "Bruegel wanted to place the people of his time in a position to recognize the senselessness of their actions and to comprehend it in its full scope.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "perseus_andromeda_rubens",
+    "title": "Perseus Frees Andromeda",
+    "artist": "Peter Paul Rubens",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "Bound to a rock, Andromeda, the daughter of the Ethiopian king Cepheus, was to be given over to a sea monster. This cruel sacrifice had been imposed upon the king by Poseidon in order to atone for the pride of his wife Cassiopeia, who had compared her daughter and herself in beauty to the Nereids. When Perseus, after his victory over the dreaded Gorgon Medusa, was returning home upon the winged horse Pegasus, he caught sight of the princess bound to a coastal rock. Overwhelmed by her beauty, he paused in flight and stepped toward her. With these words Ovid characterizes the encounter between Perseus and Andromeda, which in the sequence of the action he places chronologically before the hero’s battle with the monster. By contrast, Rubens, whose narrative art has been measured against the highest conceivable standard, Homer, combined the encounter scene with the liberation scene. The slain sea monster drifts in the surf at the left. In the deep-red mantle of the victor, Perseus loosens Andromeda’s bonds. Two putti assist him in this, while three more frolic about Pegasus, helping one another up onto him or holding his reins. The event is presented before our eyes upon the rocky plateau, slightly set back from the viewer, in a chronologically meaningful sequence from left to right, and finds its climax in the mutually dependent poses of the principal actors. The powerful movement of the hero and the inward surrender of the female figure, delicately modeled in bright light, proclaim, in the sense of the quoted verses, the love that is just awakening and that is fulfilled in the liberation.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "Bound to a rock, Andromeda, the daughter of the Ethiopian king Cepheus, was to be given over to a sea monster.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 2,
+        "text": "This cruel sacrifice had been imposed upon the king by Poseidon in order to atone for the pride of his wife Cassiopeia, who had compared her daughter and herself in beauty to the Nereids.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 3,
+        "text": "When Perseus, after his victory over the dreaded Gorgon Medusa, was returning home upon the winged horse Pegasus, he caught sight of the princess bound to a coastal rock.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 4,
+        "text": "Overwhelmed by her beauty, he paused in flight and stepped toward her.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 5,
+        "text": "Rubens combined the encounter scene with the liberation scene.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 6,
+        "text": "The slain sea monster drifts in the surf at the left.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "In the deep-red mantle of the victor, Perseus loosens Andromeda’s bonds.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 8,
+        "text": "Two putti assist him in this, while three more frolic about Pegasus, helping one another up onto him or holding his reins.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 9,
+        "text": "The event is presented before our eyes upon the rocky plateau, slightly set back from the viewer, in a chronologically meaningful sequence from left to right.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 10,
+        "text": "The event finds its climax in the mutually dependent poses of the principal actors.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 11,
+        "text": "The powerful movement of the hero and the inward surrender of the female figure, delicately modeled in bright light, proclaim the love that is just awakening and that is fulfilled in the liberation.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "malle_babbe_hals",
+    "title": "Malle Babbe",
+    "artist": "Frans Hals",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "Since the first publication of Frans Hals’s “Malle Babbe” in 1869 by Thoré-Bürger, the painting has enjoyed great admiration and recognition for its outstanding expressive power, masterly, sketch-like modeling, and spontaneity. The painting shows the life-size figure of Malle Babbe seated at a table. With her right hand she grasps the handle of a pewter jug with an upright lid. An owl sits upon her left shoulder. Through the complex, opposing motifs of movement, the figure appears to have been captured spontaneously and as if in a snapshot. While her upper body is oriented to the left and into depth, she seems to have just now laughingly turned her head to the left. Only the pewter jug set on the table places, as the sole vertical in the composition determined by crossing diagonals, a stabilizing accent in the picture. The open brushwork, too—which closes into denser modeling only in the face, while otherwise leaving the forms summarized in abruptly set strokes—contributes to the impression of a spontaneous and seemingly accidental momentary capture. Archival research has proven that this is Barbara Claes (d. 1663), a mentally impaired, “mad” [malle] woman from Haarlem. In 1646 she was committed for indecent behavior to the so-called “workhouse,” an institution for mentally ill people, where she spent a total of 15 years. Frans Hals presumably knew “Malle Babbe” as a notorious, well-known inhabitant of Haarlem and created her likeness, which moves between naturalistic portrait and ideal-typical genre image. The immoderate laughter of “Malle Babbe,” derailed by alcohol, constitutes a clear violation of the valid moral notions of the time and is conceivable as a representation only for social outsiders. Through the open, impetuous manner of painting, Frans Hals demands that the viewer step back from the picture and thus grants the socially excluded, deterrent figure of “Malle Babbe” a freedom and autonomy of her own.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "Since the first publication of Frans Hals’s “Malle Babbe” in 1869 by Thoré-Bürger, the painting has enjoyed great admiration and recognition for its outstanding expressive power, masterly, sketch-like modeling, and spontaneity.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 2,
+        "text": "The painting shows the life-size figure of Malle Babbe seated at a table.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 3,
+        "text": "With her right hand she grasps the handle of a pewter jug with an upright lid.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 4,
+        "text": "An owl sits upon her left shoulder.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 5,
+        "text": "Through the complex, opposing motifs of movement, the figure appears to have been captured spontaneously and as if in a snapshot.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 6,
+        "text": "While her upper body is oriented to the left and into depth, she seems to have just now laughingly turned her head to the left.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "Only the pewter jug set on the table places, as the sole vertical in the composition determined by crossing diagonals, a stabilizing accent in the picture.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 8,
+        "text": "The open brushwork closes into denser modeling only in the face, while otherwise leaving the forms summarized in abruptly set strokes.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 9,
+        "text": "The open brushwork contributes to the impression of a spontaneous and seemingly accidental momentary capture.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 10,
+        "text": "Archival research has proven that this is Barbara Claes (d. 1663), a mentally impaired, “mad” [malle] woman from Haarlem.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 11,
+        "text": "In 1646 she was committed for indecent behavior to the so-called “workhouse,” an institution for mentally ill people, where she spent a total of 15 years.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 12,
+        "text": "Frans Hals presumably knew “Malle Babbe” as a notorious, well-known inhabitant of Haarlem and created her likeness, which moves between naturalistic portrait and ideal-typical genre image.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 13,
+        "text": "The immoderate laughter of “Malle Babbe,” derailed by alcohol, constitutes a clear violation of the valid moral notions of the time and is conceivable as a representation only for social outsiders.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 14,
+        "text": "Through the open, impetuous manner of painting, Frans Hals demands that the viewer step back from the picture and thus grants the socially excluded, deterrent figure of “Malle Babbe” a freedom and autonomy of her own.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "self_portrait_rembrandt",
+    "title": "Self-Portrait with Velvet Beret and a Cloak with Fur Collar",
+    "artist": "Rembrandt Harmensz van Rijn",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "Like no other artist before him, Rembrandt sought confrontation with his own physiognomy and, from early youth into old age, created in painted, drawn, and etched self-representations a multitude of testimonies to autobiographical self-definition. A deep turning point in the painter’s life and artistic development, to which his self-portraits also bear witness, was his move from Leiden to the cosmopolitan city of Amsterdam in 1631. Rembrandt had undertaken the change of residence chiefly in the expectation of profitable portrait commissions. Although he always saw his true calling in that of the history painter, it was above all the numerous portrait commissions during his early Amsterdam years that founded his material and social rise. Private happiness joined professional success when he married Saskia van Uylenburgh in 1634, the daughter of a wealthy jurist from Friesland. The painting presented here dates from the year of that marriage. The portrait shows a life-size bust-length image of Rembrandt in a dark cloak, fur collar, and scarf loosely draped around the neck. His head is covered by a black velvet beret. His upper body is turned in three-quarter profile to the right, while the face, with shadowed, narrowly cut eyes and slightly opened mouth, is turned directly toward the viewer. The asymmetry of the figure’s outline intensifies the sweeping movement toward the viewer and lends the representation its characteristic dynamism. The face, vertically divided by a contrasting alternation of light and shadow, reveals a desire to idealize the naturally given breadth and irregularity of the features. He presents himself here in a distinctly social context as a successful artist who does not lack creative talent. This latter quality is also indicated by the shadowed, clouded brow—an attribute of a melancholic temperament.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "Like no other artist before him, Rembrandt sought confrontation with his own physiognomy and created a multitude of testimonies to autobiographical self-definition.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 2,
+        "text": "A deep turning point in the painter’s life was his move from Leiden to Amsterdam in 1631.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 3,
+        "text": "It was above all the numerous portrait commissions during his early Amsterdam years that founded his material and social rise.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 4,
+        "text": "He married Saskia van Uylenburgh in 1634, the daughter of a wealthy jurist from Friesland.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 5,
+        "text": "The painting presented here dates from the year of that marriage.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 6,
+        "text": "The portrait shows a life-size bust-length image of Rembrandt in a dark cloak, fur collar, and scarf loosely draped around the neck.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "His head is covered by a black velvet beret.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 8,
+        "text": "His upper body is turned in three-quarter profile to the right, while the face, with shadowed, narrowly cut eyes and slightly opened mouth, is turned directly toward the viewer.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 9,
+        "text": "The asymmetry of the figure’s outline intensifies the sweeping movement toward the viewer and lends the representation its characteristic dynamism.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 10,
+        "text": "The face, vertically divided by a contrasting alternation of light and shadow, reveals a desire to idealize the naturally given breadth and irregularity of the features.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 11,
+        "text": "He presents himself here in a distinctly social context as a successful artist who does not lack creative talent.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 12,
+        "text": "This latter quality is also indicated by the shadowed, clouded brow—an attribute of a melancholic temperament.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "glass_of_wine_vermeer",
+    "title": "The Glass of Wine",
+    "artist": "Jan Vermeer",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "In the reflection of cool daylight, which enters from the left above all through the front of the two windows, a young woman sits at a table and drinks wine. She has tilted the glass fully toward her face, as if wishing to evade the waiting gaze of the elegant cavalier who, with the wine jug in his hand but without a glass of his own, stands ready to pour more. Whether the consumption of alcohol will end in excess remains uncertain. An amorous relationship of dubious character has begun. Yet nothing coarse, nothing overtly erotic, clings to the event. On the table and on another chair, a cittern and sheet music have been laid aside, possibly an indication of the pair’s shared music-making. On the left side a slightly opened window with a colored coat of arms is depicted, on which a female figure holding interlaced bands can be seen. A corresponding figure is found among the emblems edited by G. Rollenhagen in 1617. There the bands prove to be reins, an attribute of moderation. The accompanying text of the emblem reads in translation: “The heart knows not how to keep measure, when struck by a breath of fortune, nor to lay reins upon the feelings.” This indication refers not only to the drinking of wine, but overall to the relationship of the depicted actors and the foreseeable lack of restraint on both sides. It is a warning “to keep the proper measure.” Vermeer causes the viewer to step back by separating him through the empty chair at the table. The distance thus gained broadens the angle of view. The interior is no longer perceived as part of the section containing the figures; rather, the figures are now part of the section containing the interior. The painting impresses through its strictly calculated construction and through the illusionism of the painterly manner, which remains intact even in the differentiation of surface values without already being exhausted in this purely object-related determination. In the light that is present everywhere, things acquire the appearance of a higher quality.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "In the reflection of cool daylight, which enters from the left above all through the front of the two windows, a young woman sits at a table and drinks wine.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 2,
+        "text": "She has tilted the glass fully toward her face.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 3,
+        "text": "She has tilted the glass as if wishing to evade the waiting gaze of the elegant cavalier who, with the wine jug in his hand but without a glass of his own, stands ready to pour more.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 4,
+        "text": "Whether the consumption of alcohol will end in excess remains uncertain.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 5,
+        "text": "An amorous relationship of dubious character has begun.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 6,
+        "text": "Yet nothing coarse, nothing overtly erotic, clings to the event.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 7,
+        "text": "On the table and on another chair, a cittern and sheet music have been laid aside.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 8,
+        "text": "The cittern and sheet music are possibly an indication of the pair’s shared music-making.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 9,
+        "text": "On the left side a slightly opened window with a colored coat of arms is depicted, on which a female figure holding interlaced bands can be seen.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 10,
+        "text": "A corresponding figure is found among the emblems edited by G. Rollenhagen in 1617; there the bands prove to be reins, an attribute of moderation.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 11,
+        "text": "The accompanying text of the emblem reads in translation: “The heart knows not how to keep measure, when struck by a breath of fortune, nor to lay reins upon the feelings.”",
+        "class": "VisibleText",
+        "class_info": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 12,
+        "text": "This indication refers not only to the drinking of wine, but overall to the relationship of the depicted actors and the foreseeable lack of restraint on both sides.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 13,
+        "text": "It is a warning “to keep the proper measure.”",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 14,
+        "text": "Vermeer causes the viewer to step back by separating him through the empty chair at the table.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 15,
+        "text": "The distance thus gained broadens the angle of view.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 16,
+        "text": "The interior is no longer perceived as part of the section containing the figures; rather, the figures are now part of the section containing the interior.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 17,
+        "text": "The painting impresses through its strictly calculated construction and through the illusionism of the painterly manner.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 18,
+        "text": "In the light that is present everywhere, things acquire the appearance of a higher quality.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "self_portrait_therbusch",
+    "title": "Self-Portrait",
+    "artist": "Anna Dorothea Therbusch",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "The painter, baptized on 25 July 1721 in Berlin’s St. Nicholas Church, came from a widely branched family of artists. She received her first instruction from her father, Georg Lisiewsky (Lisiewski). In 1741 she began her artistic career and a year later married her husband Ernst Friedrich Therbusch. For nearly ten years Therbusch trained her artistic abilities autodidactically. During this period experiments with color are also to be assumed, the result of which was a red lake pigment (“Arcanum”) which, in her opinion, suited flesh tones excellently if heightened only with white. The carnation pink thus created, a dark pink tone, would henceforth become characteristic of her pictures. It is found likewise in this self-portrait. After several stations in Europe, Therbusch returned to Berlin. Having become widowed, she maintained a studio with her brother. This painting is dated to the year of the artist’s death, 1782, and is considered one of the most significant self-portraits of the 18th century. In the picture the artist sits on a chair with green upholstery. The body is turned to the right. She wears a veil and a white, voluminous skirt. In her blouse the carnation pink can be seen. In her hand she holds an open book. The artist looks directly at the viewers. She wears an eyeglass on her head and slightly lifts the corners of her mouth. Her unfinished Berlin self-portrait, in which the artist presents herself as an aging yet educated painter, is one of the most significant artists’ self-portraits of the 18th century. Her glance raised from a book recalls that of a Sibyl, a prophetess who foretells the future unasked. This painting was to remain one of the artist’s last works.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "The painter, baptized on 25 July 1721 in Berlin’s St. Nicholas Church, came from a widely branched family of artists.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 2,
+        "text": "She received her first instruction from her father, Georg Lisiewsky (Lisiewski).",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 3,
+        "text": "In 1741 she began her artistic career and a year later married her husband Ernst Friedrich Therbusch.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 4,
+        "text": "For nearly ten years Therbusch trained her artistic abilities autodidactically.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 5,
+        "text": "The carnation pink thus created, a dark pink tone, would henceforth become characteristic of her pictures. It is found likewise in this self-portrait.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 6,
+        "text": "This painting is dated to the year of the artist’s death, 1782, and is considered one of the most significant self-portraits of the 18th century.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 7,
+        "text": "In the picture the artist sits on a chair with green upholstery.",
+        "class": "Overview",
+        "class_info": "artwork type, main subject, format, setting, medium if known",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 8,
+        "text": "The body is turned to the right.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 9,
+        "text": "She wears a veil and a white, voluminous skirt.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 10,
+        "text": "In her blouse the carnation pink can be seen.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 11,
+        "text": "In her hand she holds an open book.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 12,
+        "text": "The artist looks directly at the viewers.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 13,
+        "text": "She wears an eyeglass on her head and slightly lifts the corners of her mouth.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 14,
+        "text": "Her glance raised from a book recalls that of a Sibyl, a prophetess who foretells the future unasked.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 15,
+        "text": "This painting was to remain one of the artist’s last works.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  },
+  {
+    "painting_id": "amor_as_victor_caravaggio",
+    "title": "Amor as Victor",
+    "artist": "Michelangelo Merisi da Caravaggio",
+    "task": "classify each sentence into BVL clause categories",
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "class_definitions": {
+      "Overview": "artwork type, main subject, format, setting, medium if known",
+      "Spatial": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+      "Objects": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+      "Visual": "color, light, texture, brushwork, material, composition, style — how things look",
+      "VisibleText": "verbatim transcription of any legible text, inscription, motto, or label visible in the image",
+      "Interpretation": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone"
+    },
+    "input_description": "The youthful god of earthly love triumphs as a smiling victor, in accordance with Virgil’s words, “Omnia vincit amor” (“Love conquers all”; Eclogae 10, 69), over science, art, power, and fame. The instruments and symbols of the “liberal arts,” the laurel of immortal, above all literary fame, and the armor, a sign of the art of war and of martial glory, lie scattered at his feet as “trophies,” as spoils of victory (thus Caravaggio’s biographer Bellori in 1672): to the left a music book and two stringed instruments, a violin and a lute; before them square and compasses, the instruments of geometry; behind Amor’s right leg, half-concealed by the laurel, an opened, densely written manuscript and a reed pen; at the right edge, behind Amor’s left outspread leg, crown and scepter as signs of earthly dominion and power. Amor seems to sit on a blue, star-studded globe, that is, to triumph over the whole world; at the same time, the celestial sphere refers to the art of astronomy. It appears, however, to have been inserted by the painter only at the end. The boy does not actually sit on the flat curve of the globe, but on an edge over which the drapery falls down on the right and on which Amor places his left leg. As the X-ray image and the overgrown pentimento show, the edge was originally carried farther to the left beyond the contour of the body, but was then erased by the painter, overpainted, and replaced as a seat motif by the globe. The playfully unstable, provocatively obtrusive pose—a travesty of Michelangelo’s Victor (Florence, Palazzo Vecchio)—and the ambiguously mocking smile of the youth, whom Caravaggio painted after a model from the common people, underscore the most widespread interpretation, already hinted at in the Giustiniani inventory (1638) and above all elaborated by Walter Friedlaender in his Caravaggio studies of 1955: that earthly Amor mocks the highest moral and intellectual values of humankind and the goals of its ambition.",
+    "output": [
+      {
+        "sentence_id": 1,
+        "text": "The youthful god of earthly love triumphs as a smiling victor, in accordance with Virgil’s words “Omnia vincit amor” (“Love conquers all”), over science, art, power, and fame.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 2,
+        "text": "The instruments and symbols of the “liberal arts,” the laurel, and the armor lie scattered at his feet as trophies.",
+        "class": "Objects",
+        "class_info": "salient visible subjects, people, items, clothing, actions directly observable in the image",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 3,
+        "text": "To the left lie a music book and two stringed instruments, a violin and a lute.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 4,
+        "text": "Before them are square and compasses.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 5,
+        "text": "Behind Amor’s right leg, half-concealed by the laurel, lies an opened, densely written manuscript and a reed pen.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 6,
+        "text": "At the right edge, behind Amor’s left outspread leg, stand crown and scepter.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 7,
+        "text": "The crown and scepter are signs of earthly dominion and power.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 8,
+        "text": "Amor seems to sit on a blue, star-studded globe.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 9,
+        "text": "The celestial sphere refers to the art of astronomy.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 10,
+        "text": "It appears to have been inserted by the painter only at the end.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 11,
+        "text": "The boy does not actually sit on the flat curve of the globe, but on an edge over which the drapery falls down on the right and on which Amor places his left leg.",
+        "class": "Spatial",
+        "class_info": "explicit positional language — left/right, foreground/background, relative size, distance, orientation",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 12,
+        "text": "As the X-ray image and the overgrown pentimento show, the edge was originally carried farther to the left beyond the contour of the body, but was then erased by the painter, overpainted, and replaced as a seat motif by the globe.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 13,
+        "text": "The pose of the youth is playfully unstable and provocatively obtrusive.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 14,
+        "text": "The youth has an ambiguously mocking smile.",
+        "class": "Visual",
+        "class_info": "color, light, texture, brushwork, material, composition, style — how things look",
+        "visible_fact": true,
+        "optional_context": false
+      },
+      {
+        "sentence_id": 15,
+        "text": "The pose is a travesty of Michelangelo’s Victor (Florence, Palazzo Vecchio).",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      },
+      {
+        "sentence_id": 16,
+        "text": "Earthly Amor mocks the highest moral and intellectual values of humankind and the goals of its ambition.",
+        "class": "Interpretation",
+        "class_info": "symbolic, historical, psychological, or moral reading — not directly verifiable from the image alone",
+        "visible_fact": false,
+        "optional_context": true
+      }
+    ]
+  }
+]
