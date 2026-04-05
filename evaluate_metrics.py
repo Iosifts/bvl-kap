@@ -96,11 +96,18 @@ def class_coverage(clauses):
 # Expert reference profile
 # ---------------------------------------------------------------------------
 
-def compute_expert_profile(expert_data):
-    """Aggregate expert clause distribution across all 10 paintings."""
+def compute_expert_profile(expert_data, factual_only=False):
+    """Aggregate expert clause distribution across all 10 paintings.
+
+    If factual_only=True, exclude Interpretation clauses to get the
+    'ideal factual BVL profile' — the target for generated descriptions
+    that are instructed not to interpret.
+    """
     all_clauses = []
     for painting in expert_data:
         all_clauses.extend(painting["output"])
+    if factual_only:
+        all_clauses = [c for c in all_clauses if c.get("visible_fact", True)]
     return clause_distribution(all_clauses)
 
 
@@ -109,8 +116,11 @@ def compute_expert_per_painting(expert_data):
     profiles = {}
     for painting in expert_data:
         pid = painting["painting_id"]
+        factual_clauses = [c for c in painting["output"]
+                           if c.get("visible_fact", True)]
         profiles[pid] = {
             "distribution": clause_distribution(painting["output"]),
+            "distribution_factual": clause_distribution(factual_clauses),
             "visible_fact_ratio": visible_fact_ratio(painting["output"]),
             "class_coverage": class_coverage(painting["output"]),
             "clause_count": len(painting["output"]),
@@ -561,7 +571,8 @@ def main():
         "c": load_classified(args.classified_c),
     }
     expert_data = load_expert(args.expert)
-    expert_dist = compute_expert_profile(expert_data)
+    expert_dist_full = compute_expert_profile(expert_data, factual_only=False)
+    expert_dist_factual = compute_expert_profile(expert_data, factual_only=True)
 
     print(f"Loaded: A={len(classified['a'])}, B={len(classified['b'])}, "
           f"C={len(classified['c'])} entries, Expert={len(expert_data)} paintings")
@@ -574,10 +585,16 @@ def main():
         aggs[cond_key] = aggregate_condition(per_entry[cond_key])
 
     # ---------- Tables ----------
-    print_table_1(aggs, expert_dist)
-    print_table_2(aggs, expert_dist)
+    print("\n>>> Using FACTUAL-ONLY expert profile (Interpretation clauses removed)")
+    print(">>> This is the correct reference for generated descriptions that")
+    print(">>> are instructed not to interpret.\n")
+    print_table_1(aggs, expert_dist_factual)
+    print_table_2(aggs, expert_dist_factual)
     print_table_3(aggs, expert_data)
     print_table_4(aggs)
+
+    print("\n>>> For reference: FULL expert profile (including Interpretation)")
+    print_table_2(aggs, expert_dist_full)
 
     # ---------- Statistical tests ----------
     metric_vectors = {}
@@ -628,11 +645,18 @@ def main():
     # ---------- Save results ----------
     output = {
         "conditions": {},
-        "expert_profile": {
-            "distribution": expert_dist.tolist(),
+        "expert_profile_full": {
+            "distribution": expert_dist_full.tolist(),
             "classes": CLASSES,
+            "note": "includes Interpretation clauses",
         },
-        "profile_similarity": {},
+        "expert_profile_factual": {
+            "distribution": expert_dist_factual.tolist(),
+            "classes": CLASSES,
+            "note": "visible_fact=true only, Interpretation removed",
+        },
+        "profile_similarity_factual": {},
+        "profile_similarity_full": {},
         "statistical_tests": {},
     }
 
@@ -641,9 +665,17 @@ def main():
             "aggregate": aggs[k],
             "per_entry_count": len(per_entry[k]),
         }
-        jsd = js_divergence(aggs[k]["avg_distribution"], expert_dist)
-        cos = cosine_similarity(aggs[k]["avg_distribution"], expert_dist)
-        output["profile_similarity"][CONDITION_LABELS[k]] = {
+        # factual-only comparison (primary)
+        jsd_f = js_divergence(aggs[k]["avg_distribution"], expert_dist_factual)
+        cos_f = cosine_similarity(aggs[k]["avg_distribution"], expert_dist_factual)
+        output["profile_similarity_factual"][CONDITION_LABELS[k]] = {
+            "js_divergence": jsd_f,
+            "cosine_similarity": cos_f,
+        }
+        # full comparison (for reference)
+        jsd = js_divergence(aggs[k]["avg_distribution"], expert_dist_full)
+        cos = cosine_similarity(aggs[k]["avg_distribution"], expert_dist_full)
+        output["profile_similarity_full"][CONDITION_LABELS[k]] = {
             "js_divergence": jsd,
             "cosine_similarity": cos,
         }

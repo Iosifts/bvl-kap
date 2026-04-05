@@ -1,0 +1,328 @@
+{
+  "conditions": {
+    "BVL only": {
+      "aggregate": {
+        "n": 553,
+        "avg_distribution": [
+          0.11005259568908525,
+          0.22930850973276226,
+          0.17306716880179077,
+          0.39380014128171803,
+          0.0423289045044709,
+          0.05144267999017493
+        ],
+        "avg_clause_count": 9.475587703435805,
+        "std_clause_count": 2.7279818262217854,
+        "avg_class_coverage": 4.435804701627487,
+        "std_class_coverage": 0.7684577380199787,
+        "avg_visible_fact_ratio": 0.9485573200098251,
+        "std_visible_fact_ratio": 0.061651113985713754,
+        "avg_interpretation_ratio": 0.05144267999017494,
+        "std_interpretation_ratio": 0.061651113985713754,
+        "avg_word_count": 193.82640144665461,
+        "std_word_count": 94.29338019223661,
+        "avg_sentence_count": 9.980108499095842,
+        "std_sentence_count": 5.306678386283928,
+        "avg_sentence_length": 19.653050250599467,
+        "std_sentence_length": 2.6433348562602657,
+        "avg_ttr": 0.5832258821392935,
+        "std_ttr": 0.0746871365414639,
+        "avg_flesch_kincaid": 9.560200220944177,
+        "std_flesch_kincaid": 1.4663555942149946
+      },
+      "per_entry_count": 553
+    },
+    "BVL + metadata": {
+      "aggregate": {
+        "n": 553,
+        "avg_distribution": [
+          0.09361115289019147,
+          0.2881162757464418,
+          0.16537125677551712,
+          0.3832412886931876,
+          0.017057007769152043,
+          0.05260301812551291
+        ],
+        "avg_clause_count": 10.273056057866185,
+        "std_clause_count": 2.531600475919909,
+        "avg_class_coverage": 4.274864376130199,
+        "std_class_coverage": 0.7711047679106795,
+        "avg_visible_fact_ratio": 0.9473969818744872,
+        "std_visible_fact_ratio": 0.06302683682667715,
+        "avg_interpretation_ratio": 0.05260301812551293,
+        "std_interpretation_ratio": 0.06302683682667713,
+        "avg_word_count": 224.6112115732369,
+        "std_word_count": 134.7086322353196,
+        "avg_sentence_count": 11.367088607594937,
+        "std_sentence_count": 7.352471857425632,
+        "avg_sentence_length": 20.036482791139633,
+        "std_sentence_length": 2.682350979039859,
+        "avg_ttr": 0.5387211069511707,
+        "std_ttr": 0.09214582831519992,
+        "avg_flesch_kincaid": 9.748263417282502,
+        "std_flesch_kincaid": 1.4467738222553042
+      },
+      "per_entry_count": 553
+    },
+    "BVL + metadata + few-shot": {
+      "aggregate": {
+        "n": 553,
+        "avg_distribution": [
+          0.09213686831178834,
+          0.29254470389462967,
+          0.15583889396649767,
+          0.3884114703566194,
+          0.015182860792117866,
+          0.05588520267834977
+        ],
+        "avg_clause_count": 9.905967450271248,
+        "std_clause_count": 2.5177307139990086,
+        "avg_class_coverage": 4.1338155515370705,
+        "std_class_coverage": 0.8276228062320374,
+        "avg_visible_fact_ratio": 0.9441147973216502,
+        "std_visible_fact_ratio": 0.0721895864502215,
+        "avg_interpretation_ratio": 0.05588520267834979,
+        "std_interpretation_ratio": 0.0721895864502215,
+        "avg_word_count": 217.42314647377938,
+        "std_word_count": 124.28948053039947,
+        "avg_sentence_count": 10.739602169981916,
+        "std_sentence_count": 6.629766908552247,
+        "avg_sentence_length": 20.46672587858081,
+        "std_sentence_length": 2.5162531891143756,
+        "avg_ttr": 0.555002776039869,
+        "std_ttr": 0.0833430632030383,
+        "avg_flesch_kincaid": 10.279467987051866,
+        "std_flesch_kincaid": 1.4900104090035793
+      },
+      "per_entry_count": 553
+    }
+  },
+  "expert_profile_full": {
+    "distribution": [
+      0.05333333333333334,
+      0.14,
+      0.16666666666666666,
+      0.13333333333333333,
+      0.02666666666666667,
+      0.48
+    ],
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "note": "includes Interpretation clauses"
+  },
+  "expert_profile_factual": {
+    "distribution": [
+      0.10256410256410256,
+      0.2692307692307692,
+      0.32051282051282054,
+      0.2564102564102564,
+      0.05128205128205128,
+      0.0
+    ],
+    "classes": [
+      "Overview",
+      "Spatial",
+      "Objects",
+      "Visual",
+      "VisibleText",
+      "Interpretation"
+    ],
+    "note": "visible_fact=true only, Interpretation removed"
+  },
+  "profile_similarity_factual": {
+    "BVL only": {
+      "js_divergence": 0.0374031624786648,
+      "cosine_similarity": 0.9114793422705134
+    },
+    "BVL + metadata": {
+      "js_divergence": 0.041910565657421746,
+      "cosine_similarity": 0.915256073087794
+    },
+    "BVL + metadata + few-shot": {
+      "js_divergence": 0.04625987148863296,
+      "cosine_similarity": 0.9063442978497787
+    }
+  },
+  "profile_similarity_full": {
+    "BVL only": {
+      "js_divergence": 0.1447259868403586,
+      "cosine_similarity": 0.5264173240734149
+    },
+    "BVL + metadata": {
+      "js_divergence": 0.14668006608244205,
+      "cosine_similarity": 0.5276772902958176
+    },
+    "BVL + metadata + few-shot": {
+      "js_divergence": 0.14593034951697434,
+      "cosine_similarity": 0.5283467931662329
+    }
+  },
+  "statistical_tests": {
+    "visible_fact_ratio": {
+      "a_vs_b": {
+        "cohens_d": 0.012849984058395714,
+        "wilcoxon_p": 0.8222757740844584,
+        "wilcoxon_stat": 35338.5,
+        "n": 553
+      },
+      "a_vs_c": {
+        "cohens_d": 0.04747320756681381,
+        "wilcoxon_p": 0.7384795179494459,
+        "wilcoxon_stat": 34549.5,
+        "n": 553
+      },
+      "b_vs_c": {
+        "cohens_d": 0.033551336277944654,
+        "wilcoxon_p": 0.5395016739408941,
+        "wilcoxon_stat": 36001.0,
+        "n": 553
+      }
+    },
+    "interpretation_ratio": {
+      "a_vs_b": {
+        "cohens_d": -0.012849984058395743,
+        "wilcoxon_p": 0.8167807078895017,
+        "wilcoxon_stat": 35323.5,
+        "n": 553
+      },
+      "a_vs_c": {
+        "cohens_d": -0.04747320756681381,
+        "wilcoxon_p": 0.7379393320410486,
+        "wilcoxon_stat": 34548.0,
+        "n": 553
+      },
+      "b_vs_c": {
+        "cohens_d": -0.033551336277944634,
+        "wilcoxon_p": 0.5435795907677835,
+        "wilcoxon_stat": 36014.5,
+        "n": 553
+      }
+    },
+    "class_coverage": {
+      "a_vs_b": {
+        "cohens_d": 0.14622662127697636,
+        "wilcoxon_p": 0.0014177656877073885,
+        "wilcoxon_stat": 25754.5,
+        "n": 553
+      },
+      "a_vs_c": {
+        "cohens_d": 0.2731794784574039,
+        "wilcoxon_p": 4.868333513550635e-10,
+        "wilcoxon_stat": 22892.0,
+        "n": 553
+      },
+      "b_vs_c": {
+        "cohens_d": 0.12273707938702838,
+        "wilcoxon_p": 0.003032508270548404,
+        "wilcoxon_stat": 27872.0,
+        "n": 553
+      }
+    },
+    "clause_count": {
+      "a_vs_b": {
+        "cohens_d": -0.21828723237479017,
+        "wilcoxon_p": 1.8839594284098924e-11,
+        "wilcoxon_stat": 37447.5,
+        "n": 553
+      },
+      "a_vs_c": {
+        "cohens_d": -0.1177877976589355,
+        "wilcoxon_p": 0.0006759592271822024,
+        "wilcoxon_stat": 46656.5,
+        "n": 553
+      },
+      "b_vs_c": {
+        "cohens_d": 0.10312469988957247,
+        "wilcoxon_p": 0.004342728917875566,
+        "wilcoxon_stat": 49104.0,
+        "n": 553
+      }
+    },
+    "word_count": {
+      "a_vs_b": {
+        "cohens_d": -0.1852221011701746,
+        "wilcoxon_p": 2.608646574505555e-13,
+        "wilcoxon_stat": 48094.0,
+        "n": 553
+      },
+      "a_vs_c": {
+        "cohens_d": -0.14949743172619567,
+        "wilcoxon_p": 1.8315490354579782e-09,
+        "wilcoxon_stat": 52919.0,
+        "n": 553
+      },
+      "b_vs_c": {
+        "cohens_d": 0.04084776969329428,
+        "wilcoxon_p": 0.15641563740534195,
+        "wilcoxon_stat": 71001.0,
+        "n": 553
+      }
+    },
+    "avg_sentence_length": {
+      "a_vs_b": {
+        "cohens_d": -0.10393100500875473,
+        "wilcoxon_p": 0.025445851999127137,
+        "wilcoxon_stat": 67683.5,
+        "n": 553
+      },
+      "a_vs_c": {
+        "cohens_d": -0.21901411240474958,
+        "wilcoxon_p": 4.621431594581954e-08,
+        "wilcoxon_stat": 55825.0,
+        "n": 553
+      },
+      "b_vs_c": {
+        "cohens_d": -0.11967753426837156,
+        "wilcoxon_p": 0.003511117137488378,
+        "wilcoxon_stat": 65617.5,
+        "n": 553
+      }
+    },
+    "type_token_ratio": {
+      "a_vs_b": {
+        "cohens_d": 0.3702440363581543,
+        "wilcoxon_p": 6.024351073924424e-25,
+        "wilcoxon_stat": 37815.0,
+        "n": 553
+      },
+      "a_vs_c": {
+        "cohens_d": 0.245489745046382,
+        "wilcoxon_p": 2.500555573656375e-13,
+        "wilcoxon_stat": 49078.0,
+        "n": 553
+      },
+      "b_vs_c": {
+        "cohens_d": -0.13313959226480243,
+        "wilcoxon_p": 5.626709735294822e-05,
+        "wilcoxon_stat": 61449.0,
+        "n": 553
+      }
+    },
+    "flesch_kincaid_grade": {
+      "a_vs_b": {
+        "cohens_d": -0.09670290741386907,
+        "wilcoxon_p": 0.03978869353994296,
+        "wilcoxon_stat": 68862.0,
+        "n": 553
+      },
+      "a_vs_c": {
+        "cohens_d": -0.32956990990947865,
+        "wilcoxon_p": 2.3501987133084204e-14,
+        "wilcoxon_stat": 47909.0,
+        "n": 553
+      },
+      "b_vs_c": {
+        "cohens_d": -0.2641872378614626,
+        "wilcoxon_p": 8.258610601813618e-10,
+        "wilcoxon_stat": 53510.0,
+        "n": 553
+      }
+    }
+  }
+}
